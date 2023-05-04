@@ -4,44 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilos/style.css">
     <title>Meu Portfolio</title>
 </head>
 <body>
     <header class="cabecalho">
         <nav>
             <ul class="menu">
-                <li><a>Sobre Mim</a></li>
-                <li><a>Educação</a></li>
-                <li><a>Experiencias</a></li>
-                <li><a>Habilidades</a></li>
-                <li><a>Interesses</a></li>
+                <li><a href="#">Sobre Mim</a></li>
+                <li><a href="#">Educação</a></li>
+                <li><a href="#">Experiencias</a></li>
+                <li><a href="#">Habilidades</a></li>
+                <li><a href="#">Interesses</a></li>
             </ul>
         </nav>
 
         <section class="perfil">
-            <section class="dados">
-                <h1>Jonathas dos Anjos Rodrigues</h1>
-                <p>Desenvolvedor de Software</p>
-                <p>E-mail</p>
-                <p>Telefone</p>
-                <p>Cidade/UF - Brasil</p>
-            </section>
+
+            <div class="perfil__dados">
+                <h1 class="dados__nome">Nome Sobrenome</h1><br><br>
+                <p>Desenvolvedor de Software</p><br><br>
+                <p><img src="assets/email.png" alt="email"> email@email.com</p>
+                <p><img src="assets/whatsapp.png" alt="whatsapp"> (xx) xxxxx-xxxx</p>
+                <p><img src="assets/endereço.png" alt="endereço"> Cidade/UF - País</p>
+            </div>
 
             
             <section class="links__foto">
-                <img src="foto.jpg" alt="Foto">
-                <a href="">Página do Github</a>
-                <a href="">Página do Instagram</a>
+                <img class="foto" src="assets/foto-teste.jpg" alt="Foto">
+
+                <div class="redes-sociais">
+                    <a href=""><img src="assets/linkedin.png" alt="Linkedin"></a>
+                    <a href=""><img src="assets/instagram.png" alt="Instagram"></a>
+                    <a href=""><img src="assets/github.png" alt="Github"></a>
+                    <a href=""><img src="assets/twitter.png" alt="Twitter"></a>
+                </div>
             </section>
         </section>
     </header>
 
-    <main>
-
+    <main class="corpo">
+        <section class="sobre-mim">
+            <img src="assets/office_pic.jpg" alt="office">
+            <p>Sobre mim <br><br>Escreva um pouco sobre você, seus pontos fortes, suas características, um pouco da sua história!</p>
+        </section>
+       
     </main>
     
-    <footer>
+    <footer class="rodape">
 
     </footer>
 </body>
