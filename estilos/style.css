@@ -7,6 +7,7 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
+    font-style: normal;
 }
 
 body {
@@ -38,7 +39,11 @@ body {
 .perfil {
     display: flex;
     justify-content: space-around;
-    width: 100vw;
+    gap: 120px;
+}
+
+.perfil__dados {
+    height: 416px;
 }
 
 .perfil__dados p {
@@ -49,7 +54,6 @@ body {
 
 .dados__nome {
     font-size: 6rem;
-    line-height: 116px;
 }
 
 .links__foto {
@@ -71,12 +75,19 @@ body {
     padding-top: 100px;
 }
 
+.corpo {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    margin: 0 200px 85px 200px;
+}
+
 .sobre-mim {
     display:flex;
     align-items: center;
-    justify-content: center;
     gap: 55px;
-    padding-top: 128px;
+    margin: 128px 0 0 0;
 }
 
 .sobre-mim p {
@@ -85,6 +96,50 @@ body {
 }
 
 
+.titulo {
+    font-size: 1.8rem;
+    padding: 157px 0 56px 0;
+}
+
+.descricao {
+    display: flex;
+    gap: 120px;
+}
+
+.descricao p {
+    font-size: 1.8rem;
+    padding: 24px;
+    background-color: #C4C4C4;
+    border-radius: 24px;
+}
+
+.icones {
+    display: flex;
+    gap: 32px;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #C4C4C4;
+    gap: 130px;
+    height: 397px;
+}
+
+.rodape p {
+    font-size: 2.5rem;
+}
+
+.contato {
+    display: flex;
+    align-items: center;
+    padding-top: 107px;
+    gap: 28px;
+}
 
 
-
+.criacao p {
+    font-size: 1.5rem;
+    text-align: center;
+}
