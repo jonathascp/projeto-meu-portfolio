@@ -10,6 +10,9 @@
     font-style: normal;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 .cabecalho {
     height: 920px;
@@ -24,7 +27,6 @@
     display: flex;
     gap: 50px;
     padding: 33px 0 149px 0;
-    
 }
 
 .menu a {
@@ -74,14 +76,14 @@
 
 .corpo {
     padding: 85px 200px;
-    /* width: 966px; */
 }
 
-.sobre-mim {
+#sobre-mim {
     display:flex;
     align-items: center;
     gap: 55px;
     padding: 85px 0;
+    min-width: 100vh;
 }
 
 .sobre-mim p {
