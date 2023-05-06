@@ -10,13 +10,13 @@
     font-style: normal;
 }
 
-body {
-    /* width: 100vw; */
+html ,body {
+    width: 100vw;
+    height: 100vw;
 }
 
 .cabecalho {
     height: 920px;
-    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -77,36 +77,33 @@ body {
 }
 
 .corpo {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-    margin: 0 200px 85px 200px;
+    padding: 85px 200px;
 }
 
 .sobre-mim {
     display:flex;
     align-items: center;
     gap: 55px;
-    margin: 128px 0 0 0;
+    padding: 85px 0;
 }
 
 .sobre-mim p {
     font-size: 1.8rem;
-    width: 557px;
+    
 }   
-
 
 .titulo {
     font-size: 1.8rem;
-    padding: 157px 0 56px 0;
 }
 
 .descricao {
     display: flex;
-    gap: 120px;
+    gap: 90px;
+    margin: 56px 32px;
 }
 
-.descricao  p {
+
+.titulo_descricao {
     font-size: 1.8rem;
     padding: 24px;
     background-color: #C4C4C4;
@@ -116,6 +113,7 @@ body {
 .icones {
     display: flex;
     gap: 32px;
+    padding: 40px 0 60px 0;
 }
 
 .rodape {
